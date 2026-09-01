@@ -186,31 +186,6 @@ li + li {
   font-weight: 650;
 }
 
-.toc {
-  margin: 34px 52px 0;
-  padding: 24px 26px;
-  border: 1px solid var(--line);
-  border-radius: 18px;
-  background: #fafbfc;
-}
-
-.toc h2 {
-  margin-bottom: 12px;
-  font-size: 17px;
-}
-
-.toc ol {
-  columns: 2;
-  column-gap: 36px;
-  margin: 0;
-  font-size: 14px;
-}
-
-.toc li {
-  break-inside: avoid;
-  margin: 0 0 6px;
-}
-
 .document-body {
   padding: 18px 52px 54px;
 }
@@ -368,15 +343,6 @@ tr:last-child td {
     padding-bottom: 36px;
   }
 
-  .toc {
-    margin: 24px 24px 0;
-    padding: 20px;
-  }
-
-  .toc ol {
-    columns: 1;
-  }
-
   .policy-grid {
     grid-template-columns: 1fr;
   }
@@ -394,7 +360,6 @@ tr:last-child td {
   }
 
   .site-header,
-  .toc,
   .site-footer {
     display: none;
   }
