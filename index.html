@@ -3,37 +3,173 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Official legal documents for the ShotWeek iOS app.">
-  <title>ShotWeek Legal</title>
+  <meta name="theme-color" content="#08111f">
+  <meta name="description" content="ShotWeek keeps your dose history and daily response in one clear, private record.">
+  <title>ShotWeek — A clearer record for every shot</title>
+  <link rel="preload" href="shotweek-logo.svg" as="image" type="image/svg+xml">
   <link rel="stylesheet" href="styles.css">
 </head>
-<body>
-  <header class="site-header">
+<body class="landing-page">
+  <header class="site-header landing-header">
     <div class="header-inner">
-      <a class="brand" href="index.html">SHOTWEEK</a>
-      <nav class="header-nav" aria-label="Legal documents">
-        <a href="user-agreement.html">Terms</a>
+      <a class="brand brand-mark" href="index.html" aria-label="ShotWeek home">
+        <img src="shotweek-logo.svg" alt="">
+        <span>SHOTWEEK</span>
+      </a>
+      <nav class="header-nav landing-nav" aria-label="Primary navigation">
+        <a href="#product">Product</a>
+        <a href="#method">How it works</a>
         <a href="privacy-policy.html">Privacy</a>
+        <a class="nav-cta" href="mailto:matt1232026@gmail.com">Contact</a>
       </nav>
     </div>
   </header>
-  <main>
-    <article class="home-card">
-      <p class="eyebrow">Official documents</p>
-      <h1>ShotWeek Legal</h1>
-      <p class="lede">Terms and privacy information for ShotWeek, a private-by-default medication and response tracking app for iPhone.</p>
-      <div class="policy-grid">
-        <a class="policy-link" href="user-agreement.html">
-          <strong>User Agreement</strong>
-          <span>License, subscriptions, acceptable use, medical disclaimer, and service terms.</span>
-        </a>
-        <a class="policy-link" href="privacy-policy.html">
-          <strong>Privacy Policy</strong>
-          <span>What ShotWeek stores, how subscriptions work, and the choices available to you.</span>
-        </a>
+
+  <main class="landing-main">
+    <section class="landing-hero" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow eyebrow-blue">PRIVATE RECORD <span aria-hidden="true">·</span> BUILT FOR CLARITY</p>
+        <h1 id="hero-title">A clearer record<br>for every shot.</h1>
+        <p class="hero-lede">Keep the dose, the day, and how you felt in one private record—so your history is easier to understand and easier to bring to a visit.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#product">See how it works <span aria-hidden="true">↗</span></a>
+          <a class="button button-quiet" href="mailto:matt1232026@gmail.com">Talk to us</a>
+        </div>
+        <p class="hero-note"><span class="status-dot" aria-hidden="true"></span> Personal tracking tool · Not medical advice</p>
       </div>
-    </article>
+
+      <div class="hero-art" aria-label="Illustration of the ShotWeek tracking dashboard">
+        <div class="dashboard-shell">
+          <div class="dashboard-topline">
+            <span>SHOTWEEK</span>
+            <span class="topline-status"><i aria-hidden="true"></i> PRIVATE BY DEFAULT</span>
+          </div>
+          <div class="dashboard-heading">
+            <div>
+              <p class="dashboard-kicker">TODAY · WEDNESDAY</p>
+              <h2>Your record.</h2>
+            </div>
+            <span class="dashboard-avatar" aria-hidden="true">S</span>
+          </div>
+          <div class="dashboard-card dose-card">
+            <div class="dose-card-label">NEXT DOSE IN</div>
+            <div class="ring-wrap">
+              <div class="ring"><div class="ring-center"><strong>18h 24m</strong><span>Semaglutide</span><small>Tomorrow · 8:00 AM</small></div></div>
+            </div>
+            <div class="dashboard-action">Log a dose <span aria-hidden="true">+</span></div>
+          </div>
+          <div class="dashboard-metrics" aria-label="Record summary">
+            <div><strong>03</strong><span>dose records</span></div>
+            <div><strong>2.4</strong><span>avg response</span></div>
+            <div><strong>01</strong><span>active compound</span></div>
+          </div>
+          <div class="dashboard-card week-card">
+            <div class="week-card-heading"><span>THIS WEEK</span><span>1 / 7</span></div>
+            <div class="week-dots" aria-hidden="true">
+              <i class="complete"></i><i class="today"></i><i></i><i></i><i></i><i></i><i></i>
+            </div>
+            <div class="week-card-footer"><span>Today</span><span>Next check-in · Day 2</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="trust-strip" aria-label="ShotWeek principles">
+      <div><span class="trust-index">01</span><strong>Private by default</strong><span>Your core record stays on your device.</span></div>
+      <div><span class="trust-index">02</span><strong>Evidence over memory</strong><span>Small daily signals become a useful history.</span></div>
+      <div><span class="trust-index">03</span><strong>Ready when you are</strong><span>Review and share only what you choose.</span></div>
+    </section>
+
+    <section id="product" class="landing-section product-section" aria-labelledby="product-title">
+      <div class="section-heading">
+        <p class="eyebrow eyebrow-blue">THE RECORD, CONNECTED</p>
+        <h2 id="product-title">The details are small.<br>The record is not.</h2>
+        <p>ShotWeek is built around the moments people otherwise have to reconstruct later: what was recorded, when it happened, and how the following days felt.</p>
+      </div>
+      <div class="feature-grid">
+        <article class="feature-card">
+          <span class="feature-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M7 4h10v16H7z"/><path d="M9.5 8h5M9.5 12h5M9.5 16h3"/></svg></span>
+          <span class="feature-number">01</span>
+          <h3>Dose history</h3>
+          <p>Record amount, time, cadence, and injection site in a consistent timeline.</p>
+        </article>
+        <article class="feature-card">
+          <span class="feature-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 12h3l2-7 4 14 2-7h5"/></svg></span>
+          <span class="feature-number">02</span>
+          <h3>Daily response</h3>
+          <p>Capture a few repeatable signals without turning your day into a questionnaire.</p>
+        </article>
+        <article class="feature-card">
+          <span class="feature-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 18 9 12l4 3 7-9"/><path d="M16 6h4v4"/></svg></span>
+          <span class="feature-number">03</span>
+          <h3>Patterns over time</h3>
+          <p>See repeated timing and response patterns only after your own records provide context.</p>
+        </article>
+        <article class="feature-card">
+          <span class="feature-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M6 3h9l3 3v15H6z"/><path d="M14 3v4h4M9 12h6M9 16h6"/></svg></span>
+          <span class="feature-number">04</span>
+          <h3>Visit-ready summaries</h3>
+          <p>Turn a selected period into a clearer conversation starter for your next appointment.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="method" class="landing-section method-section" aria-labelledby="method-title">
+      <div class="section-heading compact-heading">
+        <p class="eyebrow eyebrow-blue">A SIMPLE ROUTINE</p>
+        <h2 id="method-title">Three moments.<br>One useful history.</h2>
+      </div>
+      <div class="steps-grid">
+        <article class="step-card"><span>01</span><div><h3>Record the dose</h3><p>Make the event precise while it is still fresh.</p></div></article>
+        <article class="step-card"><span>02</span><div><h3>Add the response</h3><p>Attach a short daily check-in to the dose that started the week.</p></div></article>
+        <article class="step-card"><span>03</span><div><h3>Review the record</h3><p>Look back across weeks instead of relying on memory alone.</p></div></article>
+      </div>
+    </section>
+
+    <section class="statement-panel" aria-labelledby="statement-title">
+      <div class="statement-mark" aria-hidden="true">↗</div>
+      <div>
+        <p class="eyebrow eyebrow-blue">WHY IT FEELS DIFFERENT</p>
+        <h2 id="statement-title">A response without its dose is only half a record.</h2>
+        <p>ShotWeek keeps daily response entries attached to the dose and shot week they belong to. That connection is the foundation for a history you can actually review.</p>
+      </div>
+    </section>
+
+    <section class="privacy-section" aria-labelledby="privacy-title">
+      <div class="privacy-copy">
+        <p class="eyebrow eyebrow-blue">DESIGNED WITH RESTRAINT</p>
+        <h2 id="privacy-title">Your record is yours.</h2>
+        <p>ShotWeek is designed to work without an account or a cloud database for your core tracking record. You decide when information leaves the app through an export or share action.</p>
+        <a class="text-link" href="privacy-policy.html">Read the Privacy Policy <span aria-hidden="true">→</span></a>
+      </div>
+      <div class="privacy-panel">
+        <div class="privacy-panel-top"><span class="shield" aria-hidden="true">✓</span><span>LOCAL FIRST</span></div>
+        <p>Core dose and response records stay on your iPhone.</p>
+        <div class="privacy-rule"></div>
+        <small>Apple processes App Store payments. See the Privacy Policy for details about subscriptions and support communications.</small>
+      </div>
+    </section>
+
+    <section class="legal-panel" aria-labelledby="legal-title">
+      <div>
+        <p class="eyebrow eyebrow-blue">THE DETAILS MATTER</p>
+        <h2 id="legal-title">Clear terms for a clear record.</h2>
+      </div>
+      <div class="legal-panel-links">
+        <a href="user-agreement.html"><span>User Agreement</span><span aria-hidden="true">↗</span></a>
+        <a href="privacy-policy.html"><span>Privacy Policy</span><span aria-hidden="true">↗</span></a>
+        <a href="mailto:matt1232026@gmail.com"><span>Contact support</span><span aria-hidden="true">↗</span></a>
+      </div>
+    </section>
   </main>
-  <footer class="site-footer">© 2026 ShotWeek · Questions: <a href="mailto:matt1232026@gmail.com">matt1232026@gmail.com</a></footer>
+
+  <footer class="site-footer landing-footer">
+    <div class="footer-inner">
+      <a class="brand brand-mark" href="index.html" aria-label="ShotWeek home"><img src="shotweek-logo.svg" alt=""><span>SHOTWEEK</span></a>
+      <p>Record clearly. Review honestly.</p>
+      <div class="footer-links"><a href="user-agreement.html">User Agreement</a><a href="privacy-policy.html">Privacy Policy</a><a href="mailto:matt1232026@gmail.com">matt1232026@gmail.com</a></div>
+    </div>
+    <div class="footer-bottom"><span>© 2026 ShotWeek</span><span>Personal tracking tool · Not medical advice</span></div>
+  </footer>
 </body>
 </html>
